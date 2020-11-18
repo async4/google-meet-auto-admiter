@@ -6,7 +6,6 @@ from datetime import datetime
 
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
-from selenium.common.exceptions import WebDriverException
 
 from admiter import admiter as adm
 
