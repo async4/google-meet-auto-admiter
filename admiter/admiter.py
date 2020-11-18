@@ -30,10 +30,10 @@ class Admiter:
 
         try:
             self.driver.get(link)
-            print("✅ connection success")
+            print("✅ Connection Success")
             self.connection = True
         except:
-            print("❌ connection error")
+            print("❌ Connection Error")
             self.connection = False
 
     def parse_url(self, url):
