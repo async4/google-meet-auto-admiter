@@ -3,7 +3,6 @@ import sys
 import time
 
 from datetime import datetime
-
 from selenium import webdriver
 
 from admiter import admiter as adm
