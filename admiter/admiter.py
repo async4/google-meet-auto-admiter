@@ -74,7 +74,7 @@ class Admiter:
                     print("💀 Driver shutdown. ( {} )" .format(datetime.now()))
                     self.connection = False
                 finally:
-                    time.sleep(0.2)
+                    time.sleep(0.5)
             else:
                 print("🔎 Driver not found")
                 sys.exit()
