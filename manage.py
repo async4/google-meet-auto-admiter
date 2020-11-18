@@ -27,7 +27,8 @@ def run(chromedriver_path):
 def main():
     os_name = sys.platform
     chromedriver_path = None
-
+      
+    # if google chrome version is 86, set version='87' 
     if os_name == "win32":
         chromedriver_path = os.path.join(driver_url, driver_win32_url.format(version='86'))
     elif os_name == "darwin":
