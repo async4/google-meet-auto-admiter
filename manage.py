@@ -8,8 +8,7 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.common.exceptions import WebDriverException
 
-import admiter as adm
-
+from admiter import admiter as adm
 
 base_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'google-meet-auto-admiter')
 driver_url = os.path.join(base_dir, 'driver')
