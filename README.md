@@ -6,4 +6,4 @@ $ python3 manage.py
 ```
 
 ## Demo
-![IMG](https://i.imgur.com/shwRCHd.gif)
+![](https://media.giphy.com/media/WVHjjInor3HJHeISxg/giphy.gif)
