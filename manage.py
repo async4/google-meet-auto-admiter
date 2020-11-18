@@ -5,7 +5,6 @@ import time
 from datetime import datetime
 
 from selenium import webdriver
-from selenium.webdriver.support.ui import WebDriverWait
 
 from admiter import admiter as adm
 
